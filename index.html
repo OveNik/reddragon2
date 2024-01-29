@@ -26,7 +26,7 @@
             line-height: 50px;
             text-align: center;
             margin-top: 250px;
-            margin-left: 400px;
+            margin-left: 350px;
             width: 200px;
             height: 50px;
             background-color: black;
@@ -105,12 +105,12 @@
     }
    #conttablero {
       margin-top: 30px;
-      margin-left: 0px;
+      margin-left: -50px;
       position: absolute;
     }
    #contbuttons {
       margin-top: 160px;
-      margin-left: 10px;
+      margin-left: -50px;
       position: absolute;
     }
 
@@ -458,23 +458,23 @@
 }
 @keyframes moverKeyframe {
          0% {
-        margin-top: 150px;
+        margin-top: 85px;
     }
          25% {
-        margin-top: 150px;
-        margin-left: 650px;
+        margin-top: 85px;
+        margin-left: 600px;
     }
          50% {
-        margin-top: 690px;
-        margin-left: 650px;
+        margin-top: 620px;
+        margin-left: 600px;
     }
          75% {
-        margin-top: 690px;
-        margin-left: 100px;
+        margin-top: 620px;
+        margin-left: 50px;
     }
          100% {
-        margin-top: 150px;
-        margin-left: 100px;
+        margin-top: 85px;
+        margin-left: 50px;
     }
 
 
@@ -596,7 +596,6 @@
         </div>
         <div id="coins" class="divDataGame"></div>
         <div id="cuadrado" class="miAnimado"></div>
-        <button onclick="ajustarZoom()">Ajustar Zoom al -50%</button>
 
         
 </div>
@@ -616,6 +615,7 @@ var totalap = ap1 + ap2 + ap3 + ap4 + ap5 + ap6 + ap7 + ap8;
 
 window.onload = paginaCargada;
     function paginaCargada() {
+    ajustarZoom();
     cuadrado.style.display = "none";
     cont1.textContent = ap1;
     cont2.textContent = ap2;
