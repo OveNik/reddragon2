@@ -11,4 +11,10 @@
         "Precio": 5,
         "Descripción": "Descripción del Producto 2"
     }
+        {
+        "id": 3,
+        "Nombre": "Producto 3",
+        "Precio": 5,
+        "Descripción": "Descripción del Producto 3"
+    }
 ]
