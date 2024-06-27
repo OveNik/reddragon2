@@ -1,12 +1,14 @@
 [
     {
+        "id": 1,
         "Nombre": "Producto 1",
-        "Precio": "25.00",
+        "Precio": 10,
         "Descripción": "Descripción del Producto 1"
     },
     {
+        "id": 2,
         "Nombre": "Producto 2",
-        "Precio": "15.00",
+        "Precio": 15,
         "Descripción": "Descripción del Producto 2"
     }
 ]
